@@ -25,14 +25,11 @@ emoji_count_p2 = {}
 person1 = ''
 person2 = ''
 
-
-##fname = raw_input('Enter file name: ')
-##if ( len(fname) < 1 ) : fname = 'chat.txt'
+#INDICATE FILE NAME HERE
 fname = '_chat.txt'
 fh = open(fname,encoding='utf-8')
 
-#chat1 = open('/home/mediacenter/chat.txt', 'r')
-#num_lines = sum(1 for line in open('/home/mediacenter/chat.txt'))
+
 
 
 for line in fh:
